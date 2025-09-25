@@ -1,91 +1,34 @@
-RMS Internship Task 2 – Data Insertion and Handling Nulls
-Objective
+🗂️ RMS Internship Task 2 – SQL Practice
 
-The objective of this task was to practice inserting, updating, and deleting data in a relational database while ensuring data consistency and handling missing values (NULL) or defaults.
+Practice Objective:
+🎯 Insert, update, and delete data in a relational database while handling missing values (NULL) and ensuring data consistency.
 
-Tools Used
+🛠️ Tools
 
-MySQL Workbench
+💻 MySQL Workbench
 
-DB Fiddle / SQLiteStudio (optional)
+🌐 DB Fiddle / SQLiteStudio
 
-Steps Performed
-1. Database and Table Creation
+📌 Features
 
-Created the RMS database (rms).
+✅ Database & table creation for clients, recruiters, candidates, requirements, submissions, submission_status
 
-Created tables:
+✅ Sample data insertion (INSERT)
 
-clients
+✅ Data updates (UPDATE) for handling missing/derived values
 
-recruiter
+✅ Column addition & reordering (ALTER TABLE)
 
-requirement_table
+✅ Deletion practice (DELETE)
 
-candidates
+✅ Verification queries (SELECT *)
 
-submitted_candidates
+📂 Deliverables
 
-submissions
+task2_rms.sql – complete SQL script with schema, inserts, updates, deletes, and verification queries
 
-submission_status
+README – this document
 
-Added missing columns where necessary:
+🏆 Outcome
 
-client_name in requirement_table
-
-client_name and candidate_name in submissions
-
-Reordered columns in submissions for better readability.
-
-2. Data Insertion
-
-Populated all tables using INSERT INTO statements.
-
-Handled missing values using NULL or defaults where appropriate.
-
-Examples:
-
-Recruiter mgr column: NULL allowed.
-
-Candidates’ phone, email, and location handled properly.
-
-3. Data Updates
-
-Updated client_name in requirement_table from clients table.
-
-Updated client_name and candidate_name in submissions table from clients and candidates.
-
-Verified updates using SELECT * statements.
-
-4. Data Deletion (Practice)
-
-Deleted sample rows based on specific conditions (e.g., deleting candidates from a specific location).
-
-5. Verification
-
-Ran SELECT * on all tables to confirm correct data insertion, updates, and null handling.
-
-Ensured the database is clean and consistent.
-
-Deliverables
-
-SQL file (task2_rms.sql) containing:
-
-Table creation scripts
-
-INSERT statements for all tables
-
-UPDATE statements for handling missing or derived values
-
-ALTER TABLE statements for column addition/reordering
-
-DELETE statements (practice)
-
-SELECT statements for verification
-
-README file (this document)
-
-Outcome
-
-A fully populated RMS database with clean and consistent data, ready for further queries and reporting.
+A fully populated RMS database ready for queries and reporting, demonstrating SQL CRUD operations and data handling best practices.
